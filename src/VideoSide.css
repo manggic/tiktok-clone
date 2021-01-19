@@ -1,0 +1,18 @@
+
+
+.side{
+     color:  red;
+      display: flex;
+      flex-direction: column;
+       position: absolute;
+       right : 20px;
+       bottom: 200px;
+}
+
+
+
+.heart, .chat, .share{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}

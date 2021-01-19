@@ -1,0 +1,56 @@
+
+
+
+
+.footer{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 30px;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.footer__text{
+    flex : 1;
+}
+
+
+.footer img{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+     width : 45px;
+     height: 45px;
+     object-fit: contain;
+     animation: spinTheRecord infinite 2s linear;
+}
+
+.footer__ticker{
+    padding-top: 15px;
+}
+
+.ticker{
+    margin-left: 40px;
+}
+
+.footer__icon{
+    position: absolute;
+}
+
+
+@keyframes spinTheRecord{
+     from{
+         transform: rotate(0deg);   
+     }
+     to{
+         transform: rotate(360deg);   
+     }
+} 
+
+
+/* .footer__ticker{
+      display: flex;
+} */
+
